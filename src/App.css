@@ -1,0 +1,31 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+textarea {
+  flex: 1;
+  height: calc(100% - 4rem);
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.preview {
+  height: 100%;
+  overflow: auto;
+  flex: 1;
+  background: #c4eaf0;
+  margin: 0 1em;
+  padding: 1rem;
+  height: calc(100% - 4rem);
+}
+img[alt="drawing"] {
+  width: 200px;
+}
